@@ -1,0 +1,13 @@
+[package]
+name = "elikar-gl"
+version = "0.1.0"
+authors = ["xstater <l>"]
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+gl_generator = "0.14.0"
+
+[lib]
+name = "elikar_gl"
+path = "src/lib.rs"
